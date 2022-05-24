@@ -7,6 +7,23 @@
  */
 
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+ @font-face {
+  font-family: 'product_sansbold';
+  src: url('fonts/product_sans_bold-webfont.woff2') format('woff2'),
+       url('fonts/product_sans_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'product_sansregular';
+  src: url('fonts/product_sans_regular-webfont.woff2') format('woff2'),
+       url('fonts/product_sans_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
  
 :root {
   --blue: #067EED;
@@ -60,7 +77,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "lato", sans-serif;
+  font-family: product_sansregular;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -12988,7 +13005,7 @@ main {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #1e2022;
+  color: #263238;
 }
 
 figure {
